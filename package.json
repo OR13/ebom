@@ -1,0 +1,26 @@
+{
+  "name": "@or13/ebom",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "ebom": "node ./src/bin.js",
+    "test": "jest"
+  },
+  "bin": {
+    "ebom": "./src/bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OR13/ebom.git"
+  },
+  "author": "Orie Steele",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/OR13/ebom/issues"
+  },
+  "homepage": "https://github.com/OR13/ebom#readme",
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
